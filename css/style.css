@@ -1,7 +1,7 @@
-@font-face 
+* 
 {
     font-family: scmagic;
-    src: url('../forum/images/audentio/dazzle/fonts/scmagic.ttf');
+    src: url("http://cocdevforum.ml/forum/images/audentio/dazzle/fonts/scmagic.ttf");
 }
 
 h1 
@@ -41,6 +41,7 @@ h1 > a
 	width: 100%;
 	background: #333;
 	font-family: 'Ubuntu', sans-serif;
+    border-radius: 8px;
 }
 
 #navigation ul
@@ -52,7 +53,7 @@ h1 > a
 #navigation ul li
 {
 	list-style-type: none;
-	display: inline;
+	display: inline-flex;
 }
 
 #navigation li a
@@ -81,7 +82,8 @@ h1 > a
 	background-color: #0000bb;
 	color: #fff;
 	font-size: 140%;
-	padding: 4px;
+	padding: 3px;
+    border-radius: 8px;
 }
 
 #content > p 
@@ -215,6 +217,7 @@ td#red
 	font-size: small;
 	background: #ccc;
 	text-align: right;
-	padding: 20px;
-	height: 1%;
+	padding: 15px;
+	height: 2.5%;
+    border-radius: 8px;
 }
